@@ -1,0 +1,9 @@
+@import 'variables';
+
+.App{
+  border: 2px solid green;
+  .App-header{
+    background-color: $color_header;
+    border: 2px solid red;
+  }
+}
