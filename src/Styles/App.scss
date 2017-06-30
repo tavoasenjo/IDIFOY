@@ -1,9 +1,14 @@
-@import 'variables';
+@import "../../node_modules/reset-scss/reset.scss";
+@import '_variables';
 
 .App{
   border: 2px solid green;
   .App-header{
-    background-color: $color_header;
+    // background-color: $color_header;
     border: 2px solid red;
   }
+}
+
+body{
+	background: $color_frame;
 }

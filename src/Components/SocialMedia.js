@@ -5,7 +5,10 @@ import Social from '../Styles/Social.scss'
 class SocialMedia extends React.Component{
 	render(){
 		return(
-			<h1>Social</h1>
+			<div className="social_main">
+				<h1>Social</h1>
+			</div>
+			
 		)
 	}
 };
