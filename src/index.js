@@ -1,8 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
-import './index.css';
+import {render} from 'react-dom';
+import style from './Styles/App.scss';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+// Import Component
+import SocialMedia from './Components/SocialMedia.js';
+
+
+render(<SocialMedia />, document.querySelector('#root'));
