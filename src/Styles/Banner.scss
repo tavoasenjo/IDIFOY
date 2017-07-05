@@ -1,8 +1,10 @@
 @import "_variables";
 
 .main_banner{
-	border: 4px solid white;
+	// border: 4px solid white;
 	height: 200px;
 	color: white;
 	padding: 10px;
+	background: url("../images/showPics6.jpg") no-repeat center;
+	background-size: cover;
 }
