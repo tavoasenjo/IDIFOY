@@ -7,4 +7,10 @@
 	padding: 10px;
 	background: url("../images/showPics6.jpg") no-repeat center;
 	background-size: cover;
+	display: block;
+	position: relative;
+	top: 50px;
+	z-index: -10;
+	display: flex;
 }
+
