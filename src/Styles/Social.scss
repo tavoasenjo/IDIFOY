@@ -5,13 +5,36 @@
 	height: 50px;
 	width: 100%;
 	background-color: $color_frame;
+	// border: 2px solid white;
 
 	.social_tech{
 		position: relative;
-		border: 2px solid white;
+		// border: 2px solid white;
+		margin: 0 20px; //this is the margin for the entire page. Use Mixin.
+		display: flex;
+		justify-content: flex-end;
+		// flex-direction: row-reverse;
 
-		li#facebook{
-			border: 2px solid red;
+		li a{
+			// border: 2px solid red;
+			text-indent: -9999px;
+			display: block;
+			background: transparent url('../images/social2.jpg') no-repeat 0 -16px;
+			width: 50px;
+			height: 45px;
+		}
+		li#facebook a{
+			background-position: 0 -21px;
+		}
+		li#facebook:hover a{
+			background-position: 0 -97px;	
+			// border: red;
+		}
+		li#twitter a{
+			background-position: -81px -21px;
+		}
+		li#twitter:hover a{
+			background-position: -81px -97px;
 		}
 	}
 }

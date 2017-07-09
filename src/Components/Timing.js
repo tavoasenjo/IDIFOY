@@ -4,7 +4,7 @@ class Timing extends React.Component{
 	render(){
 		return(
 			<div className="timing">
-				<h1>Timing</h1>
+				<h1>{this.props.propTiming}</h1>
 			</div>
 		)
 	}

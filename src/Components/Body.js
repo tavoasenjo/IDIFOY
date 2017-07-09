@@ -8,7 +8,7 @@ class Body extends React.Component{
 		return(
 			<div className="body_main">
 				<h1>Body</h1>
-				<Timing />
+				<Timing propTiming="This is the timing" />
 			</div>
 		)
 	}
