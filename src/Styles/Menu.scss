@@ -1,7 +1,17 @@
+@import "_variables";
+
 .main_menu{
-	border: 4px solid green;
+	position: relative;
+	top: 50px;
+	width: 85%;
+	left: 7.5%;
 	color: white;
 	padding: 10px;
-	background: #f7882F;
-	margin: 0 20px;
+	background: $menu_background;
+	box-shadow: 0px 0px 5px 0px rgba(26,25,26,1);
+	z-index: 8;
+}
+
+.fix-menu{
+	position: fixed;
 }
