@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import '_variables';
 
 .main_menu{
@@ -8,4 +9,22 @@
 	padding: 10px;
 	background: $color_menu;
 	// margin: 0 20px;
+=======
+@import "_variables";
+
+.main_menu{
+	position: relative;
+	top: 50px;
+	width: 85%;
+	left: 7.5%;
+	color: white;
+	padding: 10px;
+	background: $menu_background;
+	box-shadow: 0px 0px 5px 0px rgba(26,25,26,1);
+	z-index: 8;
+}
+
+.fix-menu{
+	position: fixed;
+>>>>>>> a614b1325ef45fc6f7a05aea73938b2887a83c62
 }
